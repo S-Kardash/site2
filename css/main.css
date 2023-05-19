@@ -1,0 +1,153 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.main{
+    background: url("/image/main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 980px;
+}
+.info_wrap{
+    background: url("/image/info.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 980px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 204px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.info1, .info2, .info3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.info1{
+    padding-top: 80px;
+}
+.info2{
+    padding-top: 125px;
+}
+.info3{
+    padding-top: 130px;
+}
+.koluba_image, .koluba_inside_image, .flowers_image{
+    width: 420px;
+    height: 560px;
+    filter: drop-shadow(4px 4px 70px #000000);
+    border-radius: 24px;
+    transition: all 0.45s ease-in;
+}
+.koluba_image:hover{
+    transform: scale(1.02);
+}
+.koluba_inside_image:hover{
+    transform: scale(1.02);
+}
+.flowers_image:hover{
+    transform: scale(1.02);
+}
+.info1_text, .info2_text, .info3_text{
+    font-family: 'Podkova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.06em;
+    color: #178878;
+}
+.accommodation{
+    background: url("/image/accommodation.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 980px;
+}
+.link_contact{
+    background: url("/image/link_contact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 980px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.link_contact_text-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 170px;
+    width: 887px;
+    height: 80px;
+    padding-top: 135px;
+    padding-left: 195px;
+}
+.link_contact_image-girl{
+    padding: 70px 80px 70px 0px;
+}
+.girl_image{
+    border-radius: 24px;
+    width: 560px;
+    height: 840px;
+    filter: drop-shadow(4px 4px 70px #000000);
+    transition: all 0.45s ease-in;
+}
+.girl_image:hover{
+    transform: scale(1.02);
+}
+.link_contact_text1{
+    font-family: 'Podkova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    width: 887px;
+    height: 209px;  
+}
+.link_contact_text2{
+    font-family: 'Noto Serif Telugu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: 0.06em;
+    color: #178878;
+    width: 887px;
+    height: 209px;
+}
+.button_link_contact{
+    width: 418px;
+    background: #D1E3EE;
+    border-radius: 24px;
+    text-align: center;
+    padding: 26px;
+    margin-top: -9px;
+    margin-left: 160px;
+    transition: all 0.45s ease-in;
+}
+.button_link_contact_text{
+    font-family: 'Podkova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    transition: all 0.45s ease-in;
+}
+.button_link_contact:hover{
+    background-color: #3F1A06;;
+    transform: scale(1.02);
+}
+.button_link_contact:hover .button_link_contact_text{
+    color: #fff;
+}
